@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Neural Style Transfer</title>
+</head>
+<body>
+
+    <h2>Neural Style Transfer Web App</h2>
+
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="content_image" required>
+
+        <select name="style">
+            <option value="starry.jpg">Starry Night Style</option>
+            <option value="abstract.jpg">Abstract Style</option>
+        </select>
+
+        <button type="submit">Generate</button>
+    </form>
+
+    {% if output_image %}
+        <h3>Styled Output:</h3>
+        <img src="{{ url_for('static', filename=output_image) }}" width="500">
+    {% endif %}
+
+</body>
+</html>
