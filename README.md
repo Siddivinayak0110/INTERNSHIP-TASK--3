@@ -50,3 +50,4 @@ Automatic file handling with unique filenames
 Web-based interface for viewing styled output
 
 ### result:
+<img width="1920" height="1020" alt="Image" src="https://github.com/user-attachments/assets/991c40b3-d6b2-472b-b0c4-320f52e0d1c7" />
